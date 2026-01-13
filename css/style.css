@@ -122,3 +122,69 @@ body {
     padding: 30px 15px;
   }
 }
+
+
+.theme-btn {
+  padding: 6px 12px;
+  border: none;
+  background: #0a2540;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 15px;
+}
+
+body.dark {
+  background-color: #121212;
+  color: #eaeaea;
+}
+
+body.dark .header,
+body.dark .footer {
+  background: #1f1f1f;
+}
+
+body.dark .navbar {
+  background: #1a1a1a;
+}
+
+body.dark a {
+  color: #90caf9;
+}
+
+body.dark .project-card {
+  background: #1e1e1e;
+}
+
+
+/* Contact Form */
+.contact-form {
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.contact-form textarea {
+  height: 120px;
+}
+
+.contact-form button {
+  background: #0a2540;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.contact-info {
+  margin-top: 15px;
+}

@@ -4,6 +4,11 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description"
+        content="Shahil Mansuri – Aspiring Software Engineer & AI/ML Engineer. Portfolio showcasing projects in software development, machine learning, and problem solving." />
+    <meta name="keywords"
+        content="Software Engineer Portfolio, AI ML Engineer, Python Developer, Java Developer, Machine Learning Projects" />
+    <meta name="author" content="Shahil Mansuri" />
     <title>Shahil Mansuri | Portfolio</title>
     <link rel="stylesheet" href="css/style.css" />
 </head>
@@ -23,15 +28,22 @@
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
+        <button id="themeToggle" class="theme-btn">Dark Mode</button>
     </nav>
 
     <!-- ===== ABOUT ===== -->
     <section id="about" class="section">
         <h2>About Me</h2>
         <p>
-            I am a Computer Science student focused on building strong foundations
-            in software engineering while developing expertise in Artificial
-            Intelligence and Machine Learning.
+            I am an aspiring Software Engineer and AI/ML Engineer with a strong foundation
+            in programming, data structures, and system design fundamentals. I enjoy
+            building reliable software solutions and intelligent systems that solve
+            real-world problems.
+        </p>
+        <p>
+            Currently, I am focused on strengthening my expertise in backend development,
+            machine learning, and modern engineering practices while continuously
+            improving my problem-solving skills.
         </p>
     </section>
 
@@ -94,12 +106,65 @@
 
         </div>
     </section>
+
+    <!-- ===== AI/ML PROJECTS ===== -->
+    <section id="aiml" class="section">
+        <h2>AI / ML Showcase</h2>
+
+        <div class="projects-grid">
+
+            <div class="project-card">
+                <h3>Spam Email Classifier</h3>
+                <p>
+                    Built a machine learning model to classify emails as spam or not spam
+                    using natural language processing techniques.
+                </p>
+                <ul>
+                    <li>Text preprocessing with TF-IDF</li>
+                    <li>Model training using Naive Bayes</li>
+                    <li>Achieved high accuracy on test data</li>
+                </ul>
+                <p><strong>Tech:</strong> Python, Scikit-learn, NLP</p>
+                <a href="#">View on GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>House Price Prediction</h3>
+                <p>
+                    Developed a regression model to predict housing prices based on
+                    multiple features.
+                </p>
+                <ul>
+                    <li>Performed data cleaning and feature engineering</li>
+                    <li>Trained and evaluated Linear Regression model</li>
+                </ul>
+                <p><strong>Tech:</strong> Python, Pandas, Scikit-learn</p>
+                <a href="#">View on GitHub</a>
+            </div>
+
+        </div>
+    </section>
+
     <!-- ===== CONTACT ===== -->
     <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>Email: shahilmansuri817@gmail.com</p>
-        <p>GitHub: github.com/shahilmansuri-AI-ML</p>
-        <p>LinkedIn: linkedin.com/in/shahil-mansuri-a32050241</p>
+        <h2>Contact Me</h2>
+        <p>
+            I am open to internships, entry-level roles, and collaboration opportunities.
+            Feel free to reach out.
+        </p>
+
+        <form action="https://formspree.io/f/xeeeqrgd" method="POST" class="contact-form">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <p class="contact-info">
+            Or connect with me on
+            <a href="https://github.com/shahilmansuri-AI-ML" target="_blank">GitHub</a> |
+            <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+        </p>
     </section>
 
     <!-- ===== FOOTER ===== -->
@@ -107,6 +172,7 @@
         <p>© 2026 Shahil Mansuri. All rights reserved.</p>
     </footer>
 
+    <script src="js/script.js"></script>
 </body>
 
 </html>
